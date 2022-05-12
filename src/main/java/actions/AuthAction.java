@@ -53,7 +53,6 @@ public class AuthAction extends ActionBase {
         //ログイン画面を表示
         forward(ForwardConst.FW_LOGIN);
     }
-
     /**
      * ログイン処理を行う
      * @throws ServletException
@@ -97,7 +96,6 @@ public class AuthAction extends ActionBase {
             forward(ForwardConst.FW_LOGIN);
         }
     }
-
     /**
      * ログアウト処理を行う
      * @throws ServletException
